@@ -130,4 +130,96 @@ Begin: 1-12, 16, 20, 22-24, 31-34
 // double result = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 -y1, 2));
 // Console.WriteLine($"Расстояние равно {result}");
 
-//
+//Begin 22
+// Поменять местами содержимое переменных A и B и вывести новые значения A и B.
+// Console.Write("Введите значение A:");
+// int A = int.Parse(Console.ReadLine());
+// Console.Write("Введите значение B:");
+// int B = int.Parse(Console.ReadLine());
+// (A, B) = (B, A);
+// Console.WriteLine($"A равно {A}");
+// Console.WriteLine($"B равно {B}");
+
+// Begin23
+// Даны переменные A, B, C.
+// Изменить их значения, переместив содержимое A в B, B — в C, C — в A, и вывести новые значения переменных A,B, C.
+// Console.Write("Введите значение A:");
+// int A = int.Parse(Console.ReadLine());
+// Console.Write("Введите значение B:");
+// int B = int.Parse(Console.ReadLine());
+// Console.Write("Введите значение C:");
+// int C = int.Parse(Console.ReadLine());
+// int b = B;
+// B = A;
+// A = C;
+// C = b;
+// Console.WriteLine($"A равно {A}");
+// Console.WriteLine($"B равно {B}");
+// Console.WriteLine($"C равно {C}");
+
+// Begin24
+// Даны переменные A, B, C.
+// Изменить их значения, переместив содержимое A в C, C — в B, B — в A, и вывести новые значения переменных A,B, C
+// Console.Write("Введите значение A:");
+// int A = int.Parse(Console.ReadLine());
+// Console.Write("Введите значение B:");
+// int B = int.Parse(Console.ReadLine());
+// Console.Write("Введите значение C:");
+// int C = int.Parse(Console.ReadLine());
+// int b = B;
+// B = C;
+// C = A;
+// A = b;
+// Console.WriteLine($"A равно {A}");
+// Console.WriteLine($"B равно {B}");
+// Console.WriteLine($"C равно {C}");
+
+// Begin31
+// Дано значение температуры T в градусах Фаренгейта.
+// Определить значение этой же температуры в градусах Цельсия.
+// Температура по Цельсию TC и температура по Фаренгейту TF связаны следующим соотношением:TC = (TF − 32)·5 / 9.
+// Console.Write("Введите значение Tf:");
+// int Tf = int.Parse(Console.ReadLine());
+// int Tc = (Tf - 32) * 5 / 9;
+// Console.WriteLine($"Температура Tf равна {Tf}");
+// Console.WriteLine($"Температура Tc равна {Tc}");
+
+// Begin32 
+// Дано значение температуры T в градусах Цельсия.
+// Определить значение этой же температуры в градусах Фаренгейта.
+// Температура по Цельсию TC и температура по Фаренгейту TF связаны следующим соотношением:TC = (TF − 32)·5 / 9
+// Console.Write("Введите значение Tc:");
+// int Tc = int.Parse(Console.ReadLine());
+// int Tf = Tc * 5 / 9 + 32;
+// Console.WriteLine($"Температура Tc равна {Tc}");
+// Console.WriteLine($"Температура Tf равна {Tf}");
+
+// Begin33
+// Известно, что X кг конфет стоит A рублей.
+// Определить, сколько стоит 1 кг и Y кг этих же конфет.
+// Console.Write("Введите значение X:");
+// int X = int.Parse(Console.ReadLine());
+// Console.Write("Введите значение A:");
+// int A = int.Parse(Console.ReadLine());
+// Console.Write("Введите значение Y:");
+// int Y = int.Parse(Console.ReadLine());
+// Console.WriteLine($"1 кг стоит {A / X}");
+// Console.WriteLine($"{Y} кг стоит {(A / X) * Y}");
+
+// Begin34
+// Известно, что X кг шоколадных конфет стоит A рублей, а Y кг ирисок стоит B рублей.
+// Определить, сколько стоит 1 кг шоколадных конфет,1 кг ирисок, а также во сколько раз шоколадные конфеты дороже ирисок.
+// Console.Write("Введите значение X:");
+// int X = int.Parse(Console.ReadLine());
+// Console.Write("Введите значение A:");
+// int A = int.Parse(Console.ReadLine());
+// Console.Write("Введите значение Y:");
+// int Y = int.Parse(Console.ReadLine());
+// Console.Write("Введите значение B:");
+// int B = int.Parse(Console.ReadLine());
+// double priceChocolate = A / X;
+// double priceIriska = B / Y;
+// double raznost = priceChocolate / priceIriska;
+// Console.WriteLine($"1 кг Шоколадных конфет стоит {priceChocolate}");
+// Console.WriteLine($"1 кг Ирисок стоит {priceIriska}");
+// Console.WriteLine($"Разность в стоимости {raznost}");

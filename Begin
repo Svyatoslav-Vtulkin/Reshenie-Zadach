@@ -1,0 +1,28 @@
+Begin: 1-12, 16, 20, 22-24, 31-34
+
+
+// Begin1 Дана сторона квадрата a. Найти его периметр P = 4·a.
+// int a = int.Parse(Console.ReadLine());
+// Console.WriteLine(4 * a);
+
+// Begin2 Дана сторона квадрата a. Найти его площадь S = a^2.
+// int a = int.Parse(Console.ReadLine());
+// Console.WriteLine(Math.Pow(a, 2));
+
+// Begin3 Даны стороны прямоугольника a и b. Найти его площадь S = a·b и периметр P = 2·(a + b).
+// Console.Write("Введите значение a:");
+// int a = int.Parse(Console.ReadLine());
+// Console.Write("Введите значение b:");
+// int b = int.Parse(Console.ReadLine());
+// Console.Write("Площадь равна:");
+// Console.WriteLine(a * b);
+// Console.Write("Периметр равен:");
+// Console.WriteLine(2 * (a + b));
+
+// Begin5 Дана длина ребра куба a.Найти объем куба V = a^3 и площадь его поверхности S = 6·a^2.
+Console.Write("Введите значение a:");
+int a = int.Parse(Console.ReadLine());
+Console.Write("Объем куба равен:");
+Console.WriteLine(Math.Pow(a, 3));
+Console.Write("Площадь поверхности равна:");
+Console.Write(6 * Math.Pow(a,2));

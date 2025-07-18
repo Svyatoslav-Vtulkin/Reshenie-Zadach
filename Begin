@@ -17,16 +17,16 @@ Begin: 1-12, 16, 20, 22-24, 31-34
 // int a = int.Parse(Console.ReadLine());
 // Console.Write("Введите значение b:");
 // int b = int.Parse(Console.ReadLine());
-// Console.Write("Площадь равна:");
+// Console.Write("Площадь равна:");        // МОЖНО СОКРАТИТЬ
 // Console.WriteLine(a * b);
 // Console.Write("Периметр равен:");
 // Console.WriteLine(2 * (a + b));
 
 // Begin 4
 // Дан диаметр окружности d. Найти ее длину L = π·d. В качестве значения π использовать 3.14.
-// Console.Write("Введите значение d:");
+// Console.Write("Введите значение D: ");
 // int d = int.Parse(Console.ReadLine());
-// Console.WriteLine($"Длина окружности равна {d * 3,14}");
+// Console.WriteLine($"Длина окружности равна: {d * 3,14}"); // 3.14
 
 // Begin 5
 // Дана длина ребра куба a.Найти объем куба V = a^3 и площадь его поверхности S = 6·a^2.
